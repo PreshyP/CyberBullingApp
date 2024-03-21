@@ -28,9 +28,10 @@ namespace MauiApp1.ViewModels
         [ICommand]
         public async void Login()
         {
-            if (!string.IsNullOrEmpty(_userName) && !string.IsNullOrWhiteSpace(Password))
+            if (!string.IsNullOrWhiteSpace(UserName) && !string.IsNullOrWhiteSpace(Password))
             {
                 UserInfo userInfo = await loginRepository.Login(UserName, Password);
+
                 if (Preferences.ContainsKey(nameof(App.UserInfo)))
                 {
                     Preferences.Remove(nameof(App.UserInfo));
@@ -45,12 +46,12 @@ namespace MauiApp1.ViewModels
 
                 await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
             }
-            {
+            
             }
         }
     }
 
 
 
-}
+
 
