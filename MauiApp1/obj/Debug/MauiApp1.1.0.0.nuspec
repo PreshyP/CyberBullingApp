@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MauiApp1</id>
+    <version>1.0.0</version>
+    <authors>MauiApp1</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="2658e15b191346dcb00a5bbc028531ebeb53516d" />
+    <dependencies>
+      <group targetFramework="net8.0-android34.0">
+        <dependency id="CommunityToolkit.Mvvm" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.7" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-maccatalyst17.2">
+        <dependency id="CommunityToolkit.Mvvm" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.7" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ishea\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android34.0\MauiApp1.runtimeconfig.json" target="lib\net8.0-android34.0\MauiApp1.runtimeconfig.json" />
+    <file src="C:\Users\ishea\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android34.0\MauiApp1.dll" target="lib\net8.0-android34.0\MauiApp1.dll" />
+    <file src="C:\Users\ishea\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android34.0\MauiApp1.xml" target="lib\net8.0-android34.0\MauiApp1.xml" />
+    <file src="C:\Users\ishea\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\MauiApp1.runtimeconfig.json" target="lib\net8.0-maccatalyst17.2\MauiApp1.runtimeconfig.json" />
+    <file src="C:\Users\ishea\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\MauiApp1.dll" target="lib\net8.0-maccatalyst17.2\MauiApp1.dll" />
+  </files>
+</package>

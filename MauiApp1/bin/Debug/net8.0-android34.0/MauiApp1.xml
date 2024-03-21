@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiApp1</name>
+    </assembly>
+    <members>
+        <member name="P:MauiApp1.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:MauiApp1.ViewModels.BaseViewModel._isBusy"/>
+        </member>
+        <member name="P:MauiApp1.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:MauiApp1.ViewModels.BaseViewModel._title"/>
+        </member>
+        <member name="P:MauiApp1.ViewModels.LoginPageViewModels.UserName">
+            <inheritdoc cref="F:MauiApp1.ViewModels.LoginPageViewModels._userName"/>
+        </member>
+        <member name="P:MauiApp1.ViewModels.LoginPageViewModels.Password">
+            <inheritdoc cref="F:MauiApp1.ViewModels.LoginPageViewModels._password"/>
+        </member>
+    </members>
+</doc>
